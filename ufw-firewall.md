@@ -120,7 +120,7 @@ Allow a specific IP to access port 22 (SSH).
 
 ---
 
-### 12. `sudo ufw deny ftp from <IP>`
+### 12. `sudo ufw deny from <IP> to any port 21`
 Block FTP from a specific IP address.
 - Rejects FTP connections from the specified IP
 - Useful for blocking suspicious IP addresses
